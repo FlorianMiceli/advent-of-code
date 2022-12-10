@@ -24,7 +24,7 @@ first = max(elves)
 ### Partie 2
 
 # on cherche 2 fois l'index de l'elfe qui a le plus de calories 
-# on le retire de la liste 2 fois pr trouver le 2 elfes après le premier
+# on le retire de la liste 2 fois pr trouver les 2 elfes après le premier
 
 indexpremier = elves.index(max(elves))
 elves.remove(elves[indexpremier])
