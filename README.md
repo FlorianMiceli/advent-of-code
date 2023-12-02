@@ -1,3 +1,3 @@
 ﻿# AdventOfCode
-https://adventofcode.com/2022
-https://adventofcode.com/2023
+Advent of Code is an Advent calendar of small programming puzzles
+[adventofcode.com/2023]([url](https://adventofcode.com/2023)https://adventofcode.com/2023)
