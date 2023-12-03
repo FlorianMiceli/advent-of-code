@@ -4,7 +4,6 @@ lines = input.readlines()
 # remove \n if exists
 lines = [line.strip() for line in lines]
 
-# is there a symbol around the caracter?
 symbols = ['*', '@', '+', '-', '=', '&', '/', '#', '%', '$']
 
 def isSymbolAround(lineIndex, pos) :
@@ -63,7 +62,6 @@ for line in lines :
     numbers = associate_numbers_and_digit_indexes(line)
     # print(numbers)
     for number in numbers :
-        # verify if there is a symbol around the number
         for pos in numbers[number]['positions'] :
             # print(pos)
             if isSymbolAround(numbers[number]['lineIndex'], pos) :
